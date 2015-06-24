@@ -1,0 +1,32 @@
+{
+  "name": "hapi-mongo-stream",
+  "version": "1.0.0",
+  "description": "Stream results from Mongo through Hapi",
+  "main": "index.js",
+  "engines": {
+    "node": "~0.12.0"
+  },
+  "scripts": {
+    "start": "node --harmony .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nlindley/hapi-mongo-stream.git"
+  },
+  "keywords": [
+    "hapi",
+    "mongo",
+    "stream"
+  ],
+  "author": "Nicholas Lindley <me@thisoneplace.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nlindley/hapi-mongo-stream/issues"
+  },
+  "homepage": "https://github.com/nlindley/hapi-mongo-stream",
+  "dependencies": {
+    "hapi": "^8.6.1",
+    "mongodb": "^2.0.35"
+  }
+}
